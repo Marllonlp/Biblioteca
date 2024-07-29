@@ -4,7 +4,6 @@ public class Main1 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         Controller cont = new Controller();
-
         int opc = 0;
         while (opc != 6) {
             System.out.println("\n----Menu----\n" +
@@ -21,20 +20,16 @@ public class Main1 {
                 case 1:
                     cont.addLivro();
                     break;
-
                 case 2:
                     cont.addUsuario();
                     break;
-
                 case 3:
 
-
+                    cont.emprestimo();
                     break;
                 case 4:
-
                     break;
                 case 5:
-
                     break;
                 case 6:
                     System.out.println("Saindo...");

@@ -1,10 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-public class Controller{
-    Scanner ler = new Scanner(System.in);
 
-    private String escolhaLivro;
+public class Controller {
+    Scanner ler = new Scanner(System.in);
     List<Livros> cadastrarLivro = new ArrayList<>();
     List<Usuario> cadastrarUser = new ArrayList<>();
     List<Emprestimo> emprestimos = new ArrayList<>();
@@ -43,7 +42,21 @@ public class Controller{
         cadastrarUser.add(user);
     }
 
-    public void Eprestimo(){
+    public void emprestimo() {
+        listarLivosNaoEmprestado();
 
+        System.out.println("Qual o nome do livro que deseja emprestar?");
+        ler.nextLine();
+        String titulo = ler.nextLine();
+
+    }
+
+    public void listarLivosNaoEmprestado() {
+        Livros livros = new Livros();
+        for (Livros l : cadastrarLivro) {
+            if (l.isEmprestimo() == false) {
+                System.out.println(l);
+            }
+        }
     }
 }

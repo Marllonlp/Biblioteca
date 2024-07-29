@@ -5,6 +5,26 @@ public class Funcionario extends Usuario{
         super(nome, idade, sexo, telefone);
         this.cargo = cargo;
     }
+
+    @Override
+    public void grava() {
+
+    }
+
+    @Override
+    public void excluir() {
+
+    }
+
+    @Override
+    public void ler() {
+
+    }
+
+    @Override
+    public void atualizar() {
+
+    }
 }
 
 

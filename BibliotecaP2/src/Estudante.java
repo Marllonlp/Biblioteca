@@ -17,4 +17,24 @@ public class Estudante extends Usuario {
     public void setCurso(String curso) {
         this.curso = curso;
     }
+
+    @Override
+    public void grava() {
+
+    }
+
+    @Override
+    public void excluir() {
+
+    }
+
+    @Override
+    public void ler() {
+
+    }
+
+    @Override
+    public void atualizar() {
+
+    }
 }

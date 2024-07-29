@@ -18,4 +18,23 @@ public class Professor extends Usuario{
         this.ativo = ativo;
     }
 
+    @Override
+    public void grava() {
+
+    }
+
+    @Override
+    public void excluir() {
+
+    }
+
+    @Override
+    public void ler() {
+
+    }
+
+    @Override
+    public void atualizar() {
+
+    }
 }
