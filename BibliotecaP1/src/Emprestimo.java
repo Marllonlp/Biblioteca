@@ -1,18 +1,18 @@
 public class Emprestimo {
     private String dataEmprstimo;
     private String horaEmprestimo;
-    private Livros livros;
+    private Livro livros;
     private Usuario usuario;
 
     public void setDataEmprstimo(String dataEmprstimo) {
         this.dataEmprstimo = dataEmprstimo;
     }
 
-    public Livros getLivros() {
+    public Livro getLivros() {
         return livros;
     }
 
-    public void setLivros(Livros livros) {
+    public void setLivros(Livro livros) {
         this.livros = livros;
     }
 

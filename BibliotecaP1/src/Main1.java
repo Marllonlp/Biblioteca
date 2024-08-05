@@ -24,12 +24,13 @@ public class Main1 {
                     cont.addUsuario();
                     break;
                 case 3:
-
                     cont.emprestimo();
                     break;
                 case 4:
+                    cont.devolucao();
                     break;
                 case 5:
+                    cont.listarEmprestimos();
                     break;
                 case 6:
                     System.out.println("Saindo...");

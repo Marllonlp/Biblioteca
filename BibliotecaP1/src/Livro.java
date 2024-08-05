@@ -1,15 +1,15 @@
-public class Livros extends Obra {
+public class Livro extends Obra {
     private String area;
     private String editora;
     private String edicao;
     private int numFolhas;
     private boolean emprestimo;
 
-    public Livros(){
+    public Livro(){
 
     }
 
-    public Livros(String titulo, String autores, String area, String editora, int ano, String edicao, int numFolhas, boolean emprestimo) {
+    public Livro(String titulo, String autores, String area, String editora, int ano, String edicao, int numFolhas, boolean emprestimo) {
         super(titulo, autores, ano);
         this.area = area;
         this.editora = editora;
@@ -42,7 +42,7 @@ public class Livros extends Obra {
         this.edicao = edicao;
     }
 
-    public int getNum_folhas() {
+    public int getNumFolhas() {
         return numFolhas;
     }
 

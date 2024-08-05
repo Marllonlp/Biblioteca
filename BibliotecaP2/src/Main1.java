@@ -20,13 +20,10 @@ public class Main1 {
                 case 1:
                     cont.addLivro();
                     break;
-
                 case 2:
                     cont.addUsuario();
                     break;
-
                 case 3:
-
 
                     break;
                 case 4:
